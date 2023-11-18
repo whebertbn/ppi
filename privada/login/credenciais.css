@@ -1,0 +1,90 @@
+/* arquivo para estilização formulário */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #E3E3E3;
+  }
+
+  main{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      flex: 1;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+
+
+  .login-form {
+    background-color: #1a0a0a;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    max-width: 400px;
+    width: 410px;
+    height: auto;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  label {
+    margin-top: 60px;
+    height: 20px;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    text-align: 8pt;
+    text-align: center;
+  }
+
+  input {
+    width: 275px;
+    height: 40px;
+    flex-shrink: 0;
+    padding: 8px 15px 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+  }
+
+
+  input:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  button {
+    height: 42px;
+    width: 170px;
+    padding: 10px;
+    background-color: #851B1B;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 12px;
+  }
+
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  a {
+    margin-bottom: 20px;
+    color: #FFF;
+    font-size: 18px;
+    text-decoration-line: underline;
+  }

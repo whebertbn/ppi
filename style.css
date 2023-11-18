@@ -1,0 +1,51 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.cor_menu {
+  background-color: lightgray;
+}
+
+.member {
+  margin-bottom: 40px;
+  display: flex;
+}
+
+.member img {
+  margin-right: 50px;
+}
+
+.member div {
+  flex-direction: column;
+}
+
+.custom-label {
+  font-weight: bold;
+  /* Define o texto da label em negrito */
+  color: #333;
+  /* Define a cor do texto */
+  margin-bottom: 10px;
+  /* Adiciona um espaçamento na parte inferior da label */
+}
+
+.form-label {
+  font-weight: bold;
+  /* Define o texto da label em negrito */
+  color: #333;
+  /* Define a cor do texto */
+}
+
+@media print and (orientation: portrait) {
+  body {
+    line-height: 1.1;
+    font-size: 12pt;
+  }
+}
+
+@media screen and (orientation: landscape),
+screen and (min-width: 900px) {
+  body {
+    background-color: rgb(255, 255, 255);
+  }
+}

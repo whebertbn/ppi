@@ -1,0 +1,11 @@
+  .user-selection {
+    background-color: #f0f0f0; /* Cor de fundo desejada */
+    padding: 20px; /* Espaço interno para a div */
+    text-align: center; /* Centraliza o conteúdo horizontalmente */
+    border-radius: 10px;
+    height: 250px;
+  }
+
+.user-selection h2{
+    margin-top: 5px;
+}
